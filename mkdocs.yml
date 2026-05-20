@@ -1,2 +1,42 @@
-site_name: My Docs
-site_name: Proyecto de <Alejnadro Montoro>
+site_name: Mi Portafolio
+theme:
+  name: 'material'
+  custom_dir: theme
+
+nav:
+  - Inicio: index.md
+  - Formación y Experiencia: formacion.md
+  - Proyectos: proyectos.md
+  - Contacto: contacto.md
+
+site_url: https://<tu_usuario>.github.io/portfolio-mkdocs/
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - tables
+
+  # Bienvenido a mi Portafolio
+
+Soy [Tu Nombre], un desarrollador web con pasión por crear soluciones innovadoras. En este sitio, podrás conocer más sobre mi formación, experiencia y algunos de mis proyectos.
+
+---
+
+## Mis Habilidades
+
+- Desarrollo Front-End
+- Diseño Responsivo
+- Programación en Python
+
+# Formación y Experiencia
+
+## Educación
+
+1. **Bachillerato cientifico y tecnologico**
+# Contacto
+
+Puedes contactarme por correo electrónico o seguirme en mis redes sociales.
+
+- **Correo electrónico**: tu-email@example.com
+- **GitHub**: [TuGitHub](https://github.com/tuusuario)
+- **LinkedIn**: [TuLinkedIn](https://www.linkedin.com/in/tuusuario)
